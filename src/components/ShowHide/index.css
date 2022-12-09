@@ -1,0 +1,68 @@
+.ShowHideContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  min-height: 100vh;
+}
+.title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.ShowHideButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.ButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.firstNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  background-size: cover;
+  font-family: 'Roboto';
+  margin: 20px;
+  border-radius: 10px;
+  height: 100px;
+  min-width: 160px;
+}
+.lastNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  background-size: cover;
+  font-family: 'Roboto';
+  margin: 20px;
+  border-radius: 10px;
+  height: 100px;
+  min-width: 160px;
+}
+.button {
+  color: #fc63a7;
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding: 7px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  border: 0px;
+  margin: 30px;
+  margin-bottom: 10px;
+  min-width: 130px;
+  max-width: 130px;
+}
